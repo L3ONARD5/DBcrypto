@@ -1,0 +1,135 @@
+* {
+    background-color: #252728;
+}
+
+/* h1 {
+    color: #FF5F52;
+    text-align: center;
+    background-color: #0D1011;
+} */
+
+h2 {
+    color: blue;
+}
+
+#offer {
+    width: 25%;
+}
+
+th[id="offre1"] {
+    color: #747474;
+}
+
+th[id="offre2"] {
+    color: #E97132;
+}
+
+th[id="offre3"] {
+    color: #156082;
+}
+
+th[id="offre4"] {
+    color: #196B24;
+}
+
+table[id="toto"] {
+    background-color: #E97132;
+}
+
+.offre1 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* color: #DD6868; */
+}
+
+.offre2 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    background-color: #FBE3D6;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* color: #DD6868; */
+}
+
+.offre3 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    background-color: #CAEEFB;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* color: #DD6868; */
+}
+
+.offre4 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    background-color: #C2F1C8;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* color: #DD6868; */
+}
+
+.optionIncluded {
+    background: url("./icon_yes.png") no-repeat left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #105832;
+}
+
+.optionExcluded {
+    background: url("./icon_no.png") no-repeat left top;
+    padding-left: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #DD6868;
+}
+
+th[id="offre1Titre"] {
+    color: #747474;
+    /* font-weight: bold; */
+    font-size: 25px;
+
+}
+
+th[id="offre2Titre"] {
+    color: #E97132;
+    font-size: 25px;
+}
+
+th[id="offre3Titre"] {
+    color: #156082;
+    font-size: 25px;
+}
+
+th[id="offre4Titre"] {
+    color: #196B24;
+    font-size: 25px;
+}
+
+.blocOffer1 {
+    position: absolute;
+}
+
+/* .offre1 {
+    color: #DD6868;
+} */
+
+td {
+    padding-left: 50px;
+}
