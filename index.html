@@ -12,6 +12,11 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Doto:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -23,97 +28,163 @@
         </ul> -->
     </nav>
     <header>
-        <div style="width: 100%; text-align: center;margin: 0 auto;">
-            <h1>Analyser. Gérer. Profiter de vos cryptos !</h1>
-        </div>
+        <div id="last_version">0.85</div>
+
     </header>
-    <div id="last_version">0.85</div>
+
 
     <main>
         <section>
-            <div style="width: 100%; text-align: left;margin: 0 auto;">
+            <div id="background_haut">
+                <div style="width: 100%; text-align: center;margin: 0 auto;">
+                    <h1>Analyser. Gérer. Profiter de vos cryptos !</h1>
+                </div>
+
                 <h2>Le bullrun est lancé, gérez et analysez vos portefeuilles dès maintenant pour maximiser vos profits.
                 </h2>
+                <p>Nous vous proposons des solutions adaptées à chaque profil d'investisseur !
+                    Que vous soyez détenteur de quelques satoshis ou que vous possédiez des centaines de cryptomonnaies,
+                    voici différents outils d'analyse et de prise de décision au sein d'un outil unique.
+                </p>
+
             </div>
-            <p>Que vous soyez détenteur de quelques satoshis ou que vous possédiez des centaines de cryptomonnaies,
-                voici différents outils d'analyse et de prise de décision.</p>
-            <p>Grace à ces solutions, vous pourrez : </p>
-            <ul>
-                <li>Consulter vos gains en temps réel</li>
-                <li>Générez un rapport de suivi</li>
+
+            <!-- <ul>
+                <li>Consulter de vos gains en temps réel</li>
+                <li>Générer un rapport de suivi</li>
                 <li>Visualiser la répartition de vos actifs par domaine et par portefeuille</li>
                 <li>Etablir des stratégies d'achat et de vente</li>
                 <li>S'interfacer automatiquement à Binance, Coinbase, ...</li>
-            </ul>
-        </section>
-        <section>
+            </ul> -->
             <h2>Les solutions</h2>
-            <p>Des solutions adaptées à chaque profil d'investisseur</p>
-        </section>
-        <div>
-            <table>
-                <tr>
-                    <th id="offre1Titre">OFFRE 1 : gratuite</th>
-                    <th id="offre2Titre">OFFRE 2 : 9,99 €/mois</th>
-                    <th id="offre3Titre">OFFRE 3 : 19,99 €/mois</th>
-                    <th id="offre4Titre">OFFRE 4 : 49,99 €/mois</th>
-                </tr>
-                <tr>
-                    <td>
-                        <ul class="offre1">
-                            <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
-                            <li class="optionIncluded">Génération d’un fichier de résultats</li>
-                            <li class="optionExcluded">Comparatif Investissement VS Gain & Pertes</li>
-                            <li class="optionExcluded">Répartition par domaine</li>
-                            <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
-                            <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="offre2">
-                            <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
-                            <li class="optionIncluded">Génération d’un fichier de résultats</li>
-                            <li class="optionExcluded">Comparatif Investissement VS Gain & Pertes</li>
-                            <li class="optionExcluded">Répartition par domaine</li>
-                            <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
-                            <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="offre3">
-                            <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
-                            <li class="optionIncluded">Génération d’un fichier de résultats</li>
-                            <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
-                            <li class="optionIncluded">Répartition par domaine</li>
-                            <li class="optionIncluded">Stratégie d’entrée et de sortie</li>
-                            <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
-                        </ul>
-                    </td>
-                    <td>
-                        <ul class="offre4">
-                            <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
-                            <li class="optionIncluded">Génération d’un fichier de résultats</li>
-                            <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
-                            <li class="optionIncluded">Répartition par domaine</li>
-                            <li class="optionIncluded">Stratégie d’entrée et de sortie</li>
-                            <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
-                        </ul>
-                    </td>
-                </tr>
-            </table>
+            <div id="tabOffre">
+                <table id="offert1">
+                    <tr>
+                        <th id="offre1Titre">OFFRE 1 : gratuite</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="offre1">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionExcluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionExcluded">Répartition par domaine</li>
+                                <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
+                            </ul>
+                        </td>
+                        <td rowspan="2">
+                            <img id="imgOffre" src="./sample1.png" alt="Free Offer">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+
+            <div id="tabOffre">
+                <table id="offert2">
+                    <tr>
+                        <th id="offre2Titre">OFFRE 2 : 9,99 €/mois</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="offre2">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 50 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionIncluded">Répartition par domaine</li>
+                                <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
+                            </ul>
+                        </td>
+                        <td rowspan="3">
+                            <img id="imgOffre" src="./sample2.png" alt="Offer 9,99 € / mois">
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
+
+            <div id="tabOffre">
+                <table id="offert3">
+                    <tr>
+                        <th id="offre3Titre">OFFRE 3 : 19,99 €/mois</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="offre3">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 100 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionIncluded">Répartition par domaine</li>
+                                <li class="optionIncluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
+                            </ul>
+                        </td>
+                        <td rowspan="3">
+                            <img id="imgOffre" src="./offer_3.png" alt="Offer 19,99 € / mois">
+                        </td>
+                    </tr>
+
+                </table>
+            </div>
 
 
-
-            <!-- </div>
-        <img src="./OFFRE_1.png" alt="free_offer" id="offer">
-        <img src="./offre_2.png" alt="offre_2" id="offer">
-        <img src="./offer_3.png" alt="offre_3" id="offer">
-        <img src="./offre_4.png" alt="offre_4" id="offer">
-
-        <div> -->
+            <br><br><br><br>
+            <div>
+                <table>
+                    <tr>
+                        <th id="offre1Titre">OFFRE 1 : gratuite</th>
+                        <th id="offre2Titre">OFFRE 2 : 9,99 €/mois</th>
+                        <th id="offre3Titre">OFFRE 3 : 19,99 €/mois</th>
+                        <th id="offre4Titre">OFFRE 4 : 49,99 €/mois</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul class="offre1">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <!-- <li class="optionExcluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionExcluded">Répartition par domaine</li>
+                                <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li> -->
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="offre2">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 50 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionExcluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <!-- <li class="optionExcluded">Répartition par domaine</li>
+                                <li class="optionExcluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li> -->
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="offre3">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 100 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionIncluded">Répartition par domaine</li>
+                                <li class="optionIncluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionExcluded">Intégration API (Coinbase, Binance, ...)</li>
+                            </ul>
+                        </td>
+                        <td>
+                            <ul class="offre4">
+                                <li class="optionIncluded">Analyse d’un fichier type, limité à 10 cryptomonnaies</li>
+                                <li class="optionIncluded">Génération d’un fichier de résultats</li>
+                                <li class="optionIncluded">Comparatif Investissement VS Gain & Pertes</li>
+                                <li class="optionIncluded">Répartition par domaine</li>
+                                <li class="optionIncluded">Stratégie d’entrée et de sortie</li>
+                                <li class="optionIncluded">Intégration API (Coinbase, Binance, ...)</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
             <h2>Tutorial</h2>
-            <!-- <video src="./cash_video.mp4" height="200" autoplay></video> -->
-        </div>
+        </section>
+
 
         <div>
             <h2>Contact us</h2>
