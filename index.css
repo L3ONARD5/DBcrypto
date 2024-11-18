@@ -1,6 +1,9 @@
 /* * {
     background-color: #7a9f79;
 } */
+* {
+    padding: 0px;
+}
 
 /* body {
     background-color: #e5e5f7;
@@ -14,9 +17,21 @@
     visibility: hidden;
 }
 
+#background_haut {
+    background-color: #3c9666;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
+        url('./bg_sand.jpg');
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100%;
+    background-size: cover;
+    padding: 20px;
+}
+
 h1 {
     font-family: "Roboto Condensed", sans-serif;
-    text-align: center;
+    text-align: rig;
     font-optical-sizing: auto;
     font-weight: 600;
     font-size: 75px;
@@ -28,27 +43,42 @@ h2 {
     font-family: "Roboto Condensed", sans-serif;
     font-optical-sizing: auto;
     font-weight: 600;
-    padding-left: 10px;
+    padding-left: 20px;
     font-size: 40px;
     /* font-style: normal; */
     color: rgb(255, 255, 255);
 }
 
 p {
-    /* font-family: "Roboto Condensed", sans-serif;
-    font-optical-sizing: auto; */
-    /* font-weight: 600; */
+    font-family: "Inter", sans-serif;
+    /* font-optical-sizing: auto; */
+    font-weight: 500;
+    font-style: normal;
     padding-left: 20px;
-    font-size: 15px;
-    /* font-style: normal; */
+    padding-right: 20px;
+    font-size: 20px;
     color: rgb(255, 255, 255);
+}
+
+table {
+    font-family: "Inter", sans-serif;
+    /* font-optical-sizing: auto; */
+    list-style: none;
+
+    font-weight: 500;
+    font-style: normal;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    /* background-color: #E97132; */
 }
 
 body {
     /* background-image: url("./bg_trois.jpg"); */
     /* background-image: url("./bg_sand.jpg"); */
     /* background-image: url("./bg_black_btc.jpg");*/
-    background-color: rgb(32, 33, 36);
+    background-color: rgb(235, 138, 138);
     /* background-image: url("./bg_bitcoin.jpg"); */
     /* background-repeat: no-repeat; */
     /* background-position: right top; */
@@ -59,128 +89,67 @@ body {
     /* min-height: 100vh; */
 }
 
-/* h1 {
-    background: rgb(36, 23, 0);
-    background: linear-gradient(345deg, rgba(36, 23, 0, 0.7819502801120448) 0%, rgba(9, 115, 121, 1) 52%, rgba(149, 0, 255, 1) 100%);
-} */
-
-
-/* h2 {
-    color: rgb(239, 234, 230);
-    background-color: rgb(32, 33, 36);
-    /* color: linear-gradient(345deg, rgba(255, 141, 47, 0.7819502801120448) 0%, rgba(9, 81, 121, 1) 52%, rgba(255, 0, 189, 1) 100%); 
-}
-
-*/
-/* 
-h2 {
-    height: 200px;
-    background-color: #cccccc;
-    background-image: linear-gradient(red, yellow, green);
-} */
-
-#offer {
-    width: 25%;
-}
-
-th[id="offre1"] {
-    color: #747474;
-}
-
-th[id="offre2"] {
-    color: #E97132;
-}
-
-th[id="offre3"] {
-    color: #156082;
-}
-
-th[id="offre4"] {
-    color: #196B24;
-}
-
-table[id="toto"] {
-    background-color: #E97132;
-}
-
 .offre1 {
-    padding: 0;
-    margin: 0;
     list-style-type: none;
     position: relative;
-    background-color: #F2F2F2;
+    background-color: #ffffff;
     border-radius: 25px;
-    padding: 10px;
-    /* margin: 10px; */
-    /* color: #DD6868; */
-}
-
-.offre2 {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    position: relative;
-    background-color: #FBE3D6;
-    border-radius: 25px;
-    padding: 10px;
-    /* margin: 10px; */
-    /* color: #DD6868; */
-}
-
-.offre3 {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    position: relative;
-    background-color: #CAEEFB;
-    border-radius: 25px;
-    padding: 10px;
-    /* margin: 10px; */
-    /* color: #DD6868; */
-}
-
-.offre4 {
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
-    position: relative;
-    background-color: #C2F1C8;
-    border-radius: 25px;
-    padding: 10px;
-    /* margin: 10px; */
-    /* color: #DD6868; */
-}
-
-.optionIncluded {
-    background: url("./icon_yes.png") no-repeat left top;
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #105832;
-}
-
-.optionExcluded {
-    background: url("./icon_no.png") no-repeat left top;
-    padding-left: 40px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    color: #DD6868;
+    border: 5px solid #514e4e;
+    padding: 30px;
 }
 
 th[id="offre1Titre"] {
-    color: #747474;
-    /* font-weight: bold; */
+    color: #514e4e;
     font-size: 25px;
 
+}
+
+#offert1 {
+    background-color: rgb(163, 163, 163);
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+#offert2 {
+    background-color: rgb(171, 220, 232);
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.offre2 {
+    list-style-type: none;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 5px solid rgb(25, 79, 93);
+    padding: 30px;
 }
 
 th[id="offre2Titre"] {
-    color: #E97132;
+    color: rgb(25, 79, 93);
     font-size: 25px;
 }
 
+#offert3 {
+    background-color: rgb(254, 226, 161);
+    margin-left: 50px;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.offre3 {
+    list-style-type: none;
+    position: relative;
+    background-color: #ffffff;
+    border-radius: 25px;
+    border: 5px solid rgb(219, 147, 54);
+    padding: 30px;
+}
+
 th[id="offre3Titre"] {
-    color: #156082;
+    color: rgb(219, 147, 54);
     font-size: 25px;
 }
 
@@ -188,6 +157,48 @@ th[id="offre4Titre"] {
     color: #196B24;
     font-size: 25px;
 }
+
+
+#tabOffre {
+    padding-bottom: 50px;
+}
+
+#imgOffre {
+    padding-left: 100px;
+}
+
+
+.offre4 {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    position: relative;
+    /* background-color: #C2F1C8; */
+    background-color: #ffffff;
+    border-radius: 25px;
+    padding: 10px;
+    /* margin: 10px; */
+    /* color: #DD6868; */
+}
+
+.optionIncluded {
+    background: url("./icon_yes3.png") no-repeat left top;
+    padding-left: 40px;
+    font-weight: bold;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #0f8a0f;
+}
+
+.optionExcluded {
+    /* background: url("./icon_no2.png") no-repeat left top;*/
+    padding-left: 40px;
+    /* padding-top: 5px;
+    padding-bottom: 5px; */
+    color: #696969;
+}
+
+
 
 .blocOffer1 {
     position: absolute;
