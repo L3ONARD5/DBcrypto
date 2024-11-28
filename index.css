@@ -246,6 +246,10 @@
         font-size: 0.6rem;
     }
 
+    ##TitiTitle {
+        visibility: hidden;
+    }
+
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up)
@@ -275,6 +279,10 @@
         width: 30vw;
     }
 
+    #TrueTitle {
+        visibility: hidden;
+    }
+
     h1 {
         font-family: "Roboto Condensed", sans-serif;
         font-weight: 600;
@@ -284,55 +292,107 @@
     }
 
     h2 {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 300;
-        font-size: 1rem;
-        color: rgb(70, 182, 43);
-        text-align: justify;
+        visibility: hidden;
+    }
+
+    h3 {
+        visibility: hidden;
     }
 
     p {
-        font-family: "Roboto Condensed", sans-serif;
-        font-weight: 300;
-        font-size: 0.8rem;
-        color: rgb(185, 133, 133);
-        text-align: justify;
+        visibility: hidden;
     }
 
-    #imgFreeOffer {
-        width: 80vh;
-        padding-left: 10vh;
+    #price1 {
+        visibility: hidden;
+
     }
 
-    #imgOffre {
-        width: 80vh;
-        padding-left: 10vh;
+    #offer1 {
+        visibility: hidden;
+
     }
 
-    p {
-        font-family: "Inter", sans-serif;
-        /* font-optical-sizing: auto; */
-        font-weight: 500;
-        font-style: normal;
-        padding-left: 20px;
-        padding-right: 20px;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
+    #offer1Title {
+        visibility: hidden;
+
+
     }
 
-    table {
-        font-family: "Inter", sans-serif;
-        /* font-optical-sizing: auto; */
-        list-style: none;
+    .offre1Content {
+        visibility: hidden;
 
-        font-weight: 500;
-        font-style: normal;
-        padding-left: 50px;
-        padding-right: 50px;
-        font-size: 20px;
-        color: rgb(255, 255, 255);
-        /* background-color: #E97132; */
     }
+
+    .optionIncluded1 {
+        visibility: hidden;
+
+    }
+
+    .optionExcluded1 {
+        visibility: hidden;
+
+    }
+
+    #offer2 {
+        visibility: hidden;
+
+    }
+
+    #offer2Title {
+        visibility: hidden;
+
+    }
+
+    #price2 {
+        visibility: hidden;
+
+    }
+
+    .offre2Content {
+        visibility: hidden;
+
+    }
+
+    .optionIncluded2 {
+        visibility: hidden;
+
+    }
+
+    .optionExcluded2 {
+        visibility: hidden;
+
+    }
+
+    #offer3 {
+        visibility: hidden;
+
+    }
+
+    #offer3Title {
+        visibility: hidden;
+
+    }
+
+    #price3 {
+        visibility: hidden;
+
+    }
+
+    .offre3Content {
+        visibility: hidden;
+
+    }
+
+    .optionIncluded3 {
+        visibility: hidden;
+
+    }
+
+    .optionExcluded3 {
+        visibility: hidden;
+    }
+
 }
 
 /* Large devices (laptops/desktops, 992px and up)
